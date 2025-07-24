@@ -1,0 +1,8 @@
+backend
+
+cd backend
+docker build -t teekart-backend .
+docker run -p 5000:5000 teekart-backend
+
+db postgre
+made a sql and dockercompose in root file
